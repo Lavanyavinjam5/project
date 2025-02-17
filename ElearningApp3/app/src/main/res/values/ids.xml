@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etChoice1" type="id" />
+    <item name="etChoice2" type="id" />
+    <item name="eChoice3" type="id" />
+    <item name="relativeLayout" type="id" />
+</resources>

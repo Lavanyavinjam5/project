@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".ui.DashboardActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <Button android:id="@+id/btnAddCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add  The Course"/>
+        <Button android:id="@+id/btnManageCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage The Courses"/>
+        <Button android:id="@+id/btnAddStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add The Student"/>
+        <Button android:id="@+id/btnManageStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage  The Students"/>
+        <Button android:id="@+id/btnAddExam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Exam Questions"/>
+        <Button android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log out"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
